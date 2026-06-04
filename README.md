@@ -1,5 +1,7 @@
 # hk-fundraising-campaign-advisor
 
+Version: 0.9
+
 香港在线公益筹款顾问 skill，用于设计、审阅和优化香港 NGO / 学校 / 慈善机构的线上筹款方案，覆盖网络筹款、月捐、卖旗日和 e-Flag Day。
 
 ## 能实现什么功能
@@ -98,4 +100,3 @@ hk-fundraising-campaign-advisor/
 - 定期更新 `references/evidence-base.md`，尤其是香港本地政策、支付方式、卖旗日规则和筹款研究。
 - 新增 playbook 时保持 `SKILL.md` 轻量，把长材料放在 `references/`。
 - 如果需要稳定评分脚本，可以在 `scripts/` 下补充工具，并在 `SKILL.md` 中说明何时调用。
-
