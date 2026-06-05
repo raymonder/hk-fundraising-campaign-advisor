@@ -1,8 +1,8 @@
 # hk-fundraising-campaign-advisor
 
-Version: 0.9
+版本：0.9
 
-香港在线公益筹款顾问 skill，用于设计、审阅和优化香港 NGO / 学校 / 慈善机构的线上筹款方案，覆盖网络筹款、月捐、卖旗日和 e-Flag Day。
+这个 skill 用来设计、审阅和优化香港 NGO、学校、基金会、慈善机构的线上筹款方案，覆盖网络筹款、月捐、卖旗日和 e-Flag Day。它适合把一个还比较散的筹款想法，整理成有目标、有证据、有时间线、可执行的行动计划。
 
 ## 能实现什么功能
 
@@ -15,14 +15,14 @@ Version: 0.9
 
 ## 安装方式
 
-把这个仓库放到 Codex skills 目录即可。
+把这个仓库 clone 到你的 agent skills 目录即可，例如 Codex：
 
 ```bash
 cd ~/.codex/skills
 git clone https://github.com/raymonder/hk-fundraising-campaign-advisor.git
 ```
 
-如果你使用的是其他自定义 skills 目录，把仓库 clone 到对应目录下即可。目录结构应保持为：
+如果你使用其他自定义 skills 目录，把仓库 clone 到对应目录下即可。目录结构应保持为：
 
 ```text
 ~/.codex/skills/
@@ -31,7 +31,7 @@ git clone https://github.com/raymonder/hk-fundraising-campaign-advisor.git
     └── references/
 ```
 
-安装后重启 Codex，或重新打开会话，让 skill metadata 被重新加载。
+安装后重启 agent，或重新打开会话，让 skill metadata 被重新加载。
 
 ## 怎么使用
 
@@ -49,7 +49,7 @@ git clone https://github.com/raymonder/hk-fundraising-campaign-advisor.git
 我们要给香港学校做一个网上筹款活动，请给我一份执行计划。
 ```
 
-如果你要做 review，请提供现有 URL、截图或文案。  
+如果你要做 review，请提供现有 URL、截图或文案。
 如果你要做方案，请至少提供筹款柱线、目标金额或人数、期限或使用场景。
 
 ## 输入要求
